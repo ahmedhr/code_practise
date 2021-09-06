@@ -1,10 +1,12 @@
 from collections import defaultdict
-from typing import DefaultDict
-
 
 S = "adcvregtbgchbcrrewath"
 
 W = "cat"
+
+"""
+Find how many W can be made from S
+"""
 
 count_s = defaultdict(int)
 count_w = defaultdict(int)
@@ -23,4 +25,6 @@ for k in count_w:
             alpha_count = current_count
     except:
         alpha_count = current_count
+
+
 print(alpha_count)
