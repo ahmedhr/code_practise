@@ -1,2 +1,2 @@
 # code_practise
-A heap of solutions to the stack problems I have queued for competitive programming.
+A _heap_ of solutions to the **stack** of problems I have **queued** for competitive programming.
