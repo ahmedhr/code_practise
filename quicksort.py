@@ -2,9 +2,7 @@ a = [6, 4, 2, 3]
 
 
 def swap(c, d, array):
-    temp = array[c]
-    array[c] = array[d]
-    array[d] = temp
+    array[c], array[d] = array[d], array[c]
 
 
 def quicksort(arr, left, right):
@@ -23,6 +21,7 @@ def sort(input_arr, left, right):
 
         sort(input_arr, left, pivot_pos - 1)
         sort(input_arr, pivot_pos + 1, right)
-    pass
+
 
 sort(a, 0, len(a) - 1)
+print(a)

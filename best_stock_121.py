@@ -12,7 +12,7 @@ def maxProfit(prices: List[int]) -> int:
             sell = i
         elif i > sell:
             sell = i
-            profit = min(sell - buy, profit)
+            profit = max(sell - buy, profit)
 
     print(profit)
 
