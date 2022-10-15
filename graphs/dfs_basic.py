@@ -6,8 +6,9 @@ def dfs(graph, start, visited=None):
 
     print(start)
 
-    for next in graph[start] - visited:
-        dfs(graph, next, visited)
+    unvisited = graph[start] - visited
+    for next_ele in unvisited:
+        dfs(graph, next_ele, visited)
     return visited
 
 

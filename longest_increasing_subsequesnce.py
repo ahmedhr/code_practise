@@ -20,7 +20,7 @@ print(solution)
 
 # O(NlogN)
 # Patience Sort
-# refer for explanation (not the code)W
+# refer for explanation (not the code)
 # https://www.youtube.com/watch?v=i4NBDE8ZEV8
 class Solution:
     def find_first_greater(self, haystack, needle):
@@ -41,5 +41,5 @@ class Solution:
             pile[location] = i
         return len(pile)
 
-solution = Solution().lengthOfLIS([10,9,2,5,3,7,101,18])
+solution = Solution().lengthOfLIS([0,3,4,6,2,2,7])
 print(solution)

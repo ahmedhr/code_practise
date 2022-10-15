@@ -18,5 +18,5 @@ def minSubArrayLen(target: int, nums: List[int]) -> int:
 
 
 num = [2, 3, 1, 2, 4, 3]
-tar = 2
+tar = 7
 minSubArrayLen(tar, num)
